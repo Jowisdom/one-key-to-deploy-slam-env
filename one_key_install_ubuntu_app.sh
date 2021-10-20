@@ -13,8 +13,6 @@ sudo apt-get update
 # install typora
 sudo apt-get install typora 
 
-
-
 #install joplin
 wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash 
 
