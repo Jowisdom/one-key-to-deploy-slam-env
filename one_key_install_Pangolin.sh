@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 
 sudo apt install libgl1-mesa-dev
