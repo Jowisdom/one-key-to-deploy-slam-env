@@ -26,7 +26,8 @@ else
     mkdir build-eigen
 fi
 cd build-eigen
-cmake .. -DEIGEN_DEFAULT_TO_ROW_MAJOR=$ROW_MAJOR_DEFAULT
+cmake .. 
+make -j8
 sudo make install
 cd ../..
 
