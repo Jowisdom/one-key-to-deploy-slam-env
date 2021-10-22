@@ -7,7 +7,7 @@ cmake --version
 
 sudo apt-get -qq update
 sudo apt install ccache
-sudo apt-get install gfortran libc++-dev libgoogle-glog-dev libatlas-base-dev libsuitesparse-dev 
+sudo apt-get install libc++-dev libgoogle-glog-dev libatlas-base-dev libsuitesparse-dev 
 
 # install eigen
 if [ -f eigen-3.3.4.tar.bz2 ] 
