@@ -4,6 +4,7 @@ set -x # echo on
 set -e # exit on error
 
 echo "Installing opencv3.4.16......"
+sudo apt install unar
 sudo apt-get install build-essential
 sudo apt-get install libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
 sudo add-apt-repository "deb http://security.ubuntu.com/ubuntu xenial-security main"

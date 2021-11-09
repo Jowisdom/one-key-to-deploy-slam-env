@@ -5,6 +5,7 @@ set -e # exit on error
 
 cmake --version
 
+sudo apt install gfortran
 sudo apt-get -qq update
 sudo apt install ccache
 sudo apt-get install libc++-dev libgoogle-glog-dev libatlas-base-dev libsuitesparse-dev 
