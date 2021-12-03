@@ -34,7 +34,7 @@ cd ../..
 
 
 # install ceres
-if [ ! -f ceres-solver ]
+if [ ! -d ceres-solver ]
 then
     git clone https://ceres-solver.googlesource.com/ceres-solver ceres-solver
 else
