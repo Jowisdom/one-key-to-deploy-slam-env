@@ -28,7 +28,7 @@ else
 fi
 cd build-eigen
 cmake .. 
-make -j8
+make 
 sudo make install
 cd ../..
 
@@ -53,12 +53,12 @@ fi
 cd build
 ccache -s
 cmake -DCMAKE_CXX_COMPILER_LAUNCHER=ccache ..
-make -j8
+make
 sudo make install
 cd ../..
 
 # install fmt
-if [ ! -f fmt ]
+if [ ! -d fmt ]
 then
     git clone https://github.com/fmtlib/fmt.git fmt
 else
@@ -75,12 +75,12 @@ else
 fi
 cd build
 cmake -DCMAKE_CXX_COMPILER_LAUNCHER=ccache ..
-make -j8
+make
 sudo make install
 cd ../..
 
 # install sophus
-if [ ! -f sophus ]
+if [ ! -d sophus ]
 then
     git clone https://github.com/strasdat/Sophus.git sophus
 else
@@ -96,7 +96,7 @@ else
 fi
 cd build
 cmake ..
-make -j8
+make
 sudo make install
 cd ../..
 
